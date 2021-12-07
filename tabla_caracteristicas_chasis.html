@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">	
+
+
+</head>
+<body>
+    <div style="width: 95%; padding-left:20px;">
+        <table class="table table-bordered table-striped" >
+            <thead>
+                <tr class="warning">
+                    <th>Caracteristica</th>
+                    <th>Descripción</th>										
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Modelo</b></td>
+                    <td>Chasis 4x4</td>										
+                </tr>      
+                <tr>
+                    <td><b>Escala</b></td>
+                    <td>1/17</td>										
+                </tr>
+                <tr>
+                    <td><b>Tamaño</b></td>
+                    <td><b>Largo</b>:20cm,<b>Ancho:</b> 9.5cm,<b>Alto:</b>7.5cm</td>										
+                </tr>
+                <tr>
+                    <td><b>Total Piezas</b></td>
+                    <td>180 </td>									
+                </tr>
+                <tr>
+                    <td><b>Tiempo de Armado</b></td>
+                    <td>8 horas </td>									
+                </tr>
+                <tr>
+                    <td><b>Material</b></td>
+                    <td>mdf</td>										
+                </tr>
+                <tr>
+                    <td><b>Manual</b></td>
+                    <td>Instrucciones pdf</td>										
+                </tr>
+                <tr>
+                    <td><b>Que incluye la caja</b></td>
+                    <td>Bandas, pegante, lija, sistema electrico, palillos etc</td>										
+                </tr>
+                <tr>
+                    <td><b>Nivel de dificultad</b></td>
+                    <td>Master</td>									
+                </tr>
+                <tr>
+                    <td><b>Edad recomendada</b></td>
+                    <td>Mayores de 16 años</td>									
+                </tr>
+                <tr>
+                    <td><b>Disponibles</b></td>
+                    <td ><b id="cantidad_chasis" ></b> <b>unds</b></td>										
+                </tr>
+                <tr>
+                    <td><b>Precio</b></td>
+                    <td >$ <b id="precio_chasis" ></b></td>										
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div style="width: 95%; padding-left:20px;">
+        <table  class="table table-bordered table-striped">
+            <thead>
+                <tr class="warning">										
+                <th>Sistema Mecánico</th>
+                <th>ok</th>							
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">										
+                <td>Sistema de suspensión  </td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+                <tr>										
+                <td>Sistema de Tracción </td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+                <tr>										
+                <td>Sistema de dirección por cremallera</td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+                <tr>										
+                <td>Arbol de transmisión cardan,cruceta ,etc</td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+                <tr>										
+                <td>Motor 4 cilindros en línea</td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+                <tr>										
+                <td>Llantas con movimiento</td>
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+     
+     <script src="productos/constantes_productos.js"></script>
+      <script>   	
+        document.getElementById('precio_chasis').textContent=valor_chasis    
+        document.getElementById('cantidad_chasis').textContent =unidades_chasis;     
+      </script>
+    		
+
+
+   
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/theme-scripts.js"></script>
+
+<script src="productos/constantes_productos.js"></script>
+
+
+
+
+</html>

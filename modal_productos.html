@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">	   
+    
+    </head>
+<body>
+    <div class="modal-body">        	
+   
+       	<!-- mas info Modal Jeep -->
+		<div class="modal fade bd-example-modal-jeep"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Jeep Willys MB 1942 </b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_jeep2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el jeep">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_jeep.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+            
+        <!-- mas info Modal chasis -->
+		<div class="modal fade bd-example-modal-chasis"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Chasis </b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_chasis2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el chasis">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_chasis.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        <!-- mas info Modal trailer -->
+		<div class="modal fade bd-example-modal-trailer"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Trailer jeep </b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_trailer2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el trailer">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_trailer.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        
+        <!-- mas info Modal arma tiro al blanco -->
+		<div class="modal fade bd-example-modal-kit-arma-m9"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Kit de tiro al blanco </b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_kit_tiro_M92"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el kit de tiro al blanco">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_kit_tiro_m9.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        <!-- mas info Modal automata flexiones -->
+		<div class="modal fade bd-example-modal-automate-flexiones"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Automata flexiones de brazos</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_automata_flexiones2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el automata de flexiones de brazos">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_flexiones_brazos.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+         <!-- mas info Modal TOYOTA FJ40 -->
+		<div class="modal fade bd-example-modal-toyota-fj40"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>toyota fj40</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_toyota_fj402"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el toyota fj40">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_toyota_fj40.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        <!-- mas info Modal Gran Padoga-->
+		<div class="modal fade bd-example-modal-gran-padoga"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Gran Padoga Ganso</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_gran_padoga_ganso2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la Gran Padoga del Ganso">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_gran_padoga_ganso.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+         <!-- mas info Modal Yueyang Tower-->
+		<div class="modal fade bd-example-modal-yueyang-tower"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Yueyang Tower</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_yueyang_tower2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de Yueyang">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_yueyang_tower.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        <!-- mas info Modal Templo Oracion Chino-->
+		<div class="modal fade bd-example-modal-templo-oracion"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Templo Oracion</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_templo_oracion2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar El templo de oracion Chino">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_templo_oracion.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+         <!-- mas info Modal Torre de Pisa-->
+		<div class="modal fade bd-example-modal-torre-pisa"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Torre de Pisa</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_torre_pisa2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de Pisa">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_torre_pisa.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+        
+         <!-- mas info torre de kuala lumpur-->
+		<div class="modal fade bd-example-modal-kuala-lumpur"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Torre de Kuala Lumpur</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_torre_kuala_lumpur2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de Kuala Lumpur">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_torre_kuala_lumpur.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+
+         <!-- mas info Burj Arab-->
+		<div class="modal fade bd-example-modal-burj-arab"  tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content"  style="position: fixed;" >
+					<div class="modal-header" >
+						<div class="btn-group btn-group-justified" role="group" aria-label="..." >
+							<div class="btn-group" role="group">
+								<h5 style="padding-left: 10px;"> <b>Burj Arab</b></h5>
+							</div>
+							<div class="btn-group" style="text-align: center;" role="group">
+								<div class="" style="text-align: center;" role="group">
+									<h5 style="color: red;"><b>$</b> <b id="precio_burj_arab2"></b></h5>								
+								</div>
+								<button type="btn btn-default btn-xs" style="background-color: black; text-align: center;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el burj arab">Comprar Ahora </a></button>
+							</div>
+							<div class="btn-group" role="group">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+						</div>
+					</div>
+					<iframe class="modal-principal" src="modal_burj_arab.html" frameborder="0"  width="100%"></iframe>					
+					<div class="modal-footer" style="height: 40px; padding-right: 10px;">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">cerrar</button>		
+					</div>
+  			    </div>
+			</div>
+		</div>
+            
+            
+            
+
+         <!-- LISTA DE PRODUCTOS -->    
+
+        <div class="modal-caracteristicas" style="width: 95%;"><br>           
+            <h4 style="text-align: center;">Todos los productos Toys Models </h4><br>
+                   
+                    <!-- 1ra fila--> 
+                       <!-- Jeep 4 x 4--> 
+                        <div class="row">                     
+                            <div class="col-xs-6 col-md-6">           
+                                <div class="thumbnail">
+                                    <img src="images/demo/jeep/jeep-12.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-jeep" style="cursor: pointer;">                                
+                                    <div  style="line-height: 100%; text-align: center;" >
+                                            <h4><b id="nombre_jeep"></b></h4>                                                 
+                                                <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_jeep'></b></h5>						
+                                                <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_jeep'></b><b> Und</b></h5>	                                                
+                                            <button type="btn btn-default btn-xs" style="background-color: black; text-align: center; height: 25px;" ><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el jeep">Comprar Ahora </a></button>
+                                            <br>
+                                            <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px;"   ><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-jeep">Mas info</a> </button>
+                                    </div>                                    
+                                </div>
+                            </div>                   
+                            <!-- Chasis--> 
+                            <div class="col-xs-6 col-md-6">           
+                                <div class="thumbnail">
+                                    <img src="images/demo/chasis/img-1.JPG" alt="..." data-toggle="modal" data-target=".bd-example-modal-chasis" style="cursor: pointer;">
+                                    <div  style="line-height: 100%; text-align: center;">
+                                        <h4><b id="nombre_chasis"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_chasis'></b></h5>					
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_chasis'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el chasis">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-chasis">Mas info</a> </button>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+
+                    <!-- 2da fila--> 
+                    <div class="row">                     
+                        <!-- trailer--> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/trailer/img-1.JPG" alt="..." data-toggle="modal" data-target=".bd-example-modal-trailer" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_trailer"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_trailer'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_trailer'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el trailer">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-trailer">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div>   
+                
+                        <!-- Kit tiro al blanco --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arma M9/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-kit-arma-m9" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_kit_tiro_M9"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_kit_tiro_M9'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_kit_tiro_M9'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el Kit de tiro al blanco">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-kit-arma-m9">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div>  
+            
+                    </div>
+
+                    <!-- 3ra fila--> 
+                    <div class="row">                     
+                        <!-- Automata flexiones--> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/automata flexiones/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-automate-flexiones" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h5><b id="nombre_automata_flexiones"></b></h5>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_automata_flexiones'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='unidades_automata_flexiones'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el Automata de flexiones de brazos">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-automate-flexiones">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div>   
+                
+                        <!-- toyota FJ40 --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/toyota fj40/img-7.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-toyota-fj40" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_toyota_fj40"> </b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_toyota_fj40'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_toyota_fj40'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el TOYOTA FJ40">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-toyota-fj40">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+          
+
+                    <!-- 4ta fila--> 
+                    <div class="row">                     
+                        <!-- GRAN PADOGA --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/gran padoga/img-2.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-gran-padoga" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h5><b id="nombre_gran_padoga_ganso"></b></h5>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_gran_padoga_ganso'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_gran_padoga_ganso'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la Gran Padoga del Ganso">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-gran-padoga">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div>   
+                
+                        <!-- YUEYANG TOWER --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/yueyang tower/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-yueyang-tower" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_yueyang_tower"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_yueyang_tower'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_yueyang_tower'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de yueyang">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-yueyang-tower">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <!-- 5ta fila--> 
+                    <div class="row">                     
+                        <!-- templo Chino oracion --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/templo chino/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-templo-oracion" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_templo_oracion"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_templo_oracion'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_templo_oracion'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el templo de oracion Chino">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-templo-oracion">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div> 
+                
+                        <!-- Torre de Pisa --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/torre de pisa/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-torre-pisa" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_torre_pisa"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_torre_pisa'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_torre_pisa'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de Pisa">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-torre-pisa">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <!-- 5ta fila--> 
+                    <div class="row">                     
+                        <!-- Torre Kuala Lumpur --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/kuala lumpur/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-kuala-lumpur" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_torre_kuala_lumpur"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_torre_kuala_lumpur'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_torre_kuala_lumpur'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar la torre de kuala lumpur">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-kuala-lumpur">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div> 
+                
+                        <!-- Burj Arab --> 
+                        <div class="col-xs-6 col-md-6">           
+                            <div class="thumbnail">
+                                <img src="images/demo/arquitectura/burj arab/img-1.jpg" alt="..." data-toggle="modal" data-target=".bd-example-modal-burj-arab" style="cursor: pointer;">
+                                <div  style="line-height: 100%; text-align: center;">
+                                    <h4><b id="nombre_burj_arab"></b></h4>  
+                                            <h5 style="color: red;"><b>Precio:</b><b> $ </b><b id='precio_burj_arab'></b></h5>
+                                            <h5 style="color: green;" ><b>Disponible:</b><b id='cantidad_burj_arab'></b><b> Und</b></h5>								
+                                        <button type="btn btn-default btn-xs" style="background-color: black; text-align: center;height: 25px"><a style="color: white; font-size: 12px;"  target="_blank" href="https://api.whatsapp.com/send?phone=573003337969&text=Hola Quiero comprar el Burj Arab">Comprar Ahora </a></button>
+                                        <br>
+                                        <button type="button"  style="background-color: black; text-align: center; color: white;height: 25px"><a style="color: burlywood;" href="#" data-toggle="modal" data-target=".bd-example-modal-burj-arab">Mas info</a> </button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+							
+        </div>	
+    </div>
+       					
+	<script src="productos/constantes_productos.js"></script>
+
+	<script>
+	/*JEEP*/
+	document.getElementById('precio_jeep').textContent=valor_jeep
+	document.getElementById('precio_jeep2').textContent=valor_jeep
+	document.getElementById('nombre_jeep').textContent =nombre_jeep;
+	document.getElementById('cantidad_jeep').textContent =unidades_jeep;
+	</script>
+
+	<script>
+	/*chasis*/	
+	document.getElementById('precio_chasis').textContent=valor_chasis
+	document.getElementById('precio_chasis2').textContent=valor_chasis
+	document.getElementById('nombre_chasis').textContent =nombre_chasis;
+	document.getElementById('cantidad_chasis').textContent =unidades_chasis;
+	</script>
+
+	<script>
+	/*trailer*/	  
+	document.getElementById('precio_trailer').textContent=valor_trailer
+	document.getElementById('precio_trailer2').textContent=valor_trailer
+	document.getElementById('nombre_trailer').textContent =nombre_trailer;
+	document.getElementById('cantidad_trailer').textContent =unidades_trailer;
+	</script>
+
+	<script>  
+	/*TOYOTA FJ40*/
+	document.getElementById('precio_toyota_fj40').textContent=valor_toyota_fj40
+	document.getElementById('precio_toyota_fj402').textContent=valor_toyota_fj40
+	document.getElementById('nombre_toyota_fj40').textContent =nombre_toyota_fj40;
+	document.getElementById('cantidad_toyota_fj40').textContent =unidades_toyota_fj40;
+	</script>
+
+	<script>
+	/*KIT TIRO AL BLANCO*/
+	document.getElementById('precio_kit_tiro_M9').textContent=valor_kit_tiro_M9
+	document.getElementById('precio_kit_tiro_M92').textContent=valor_kit_tiro_M9
+	document.getElementById('nombre_kit_tiro_M9').textContent =nombre_kit_tiro_M9;
+	document.getElementById('cantidad_kit_tiro_M9').textContent =unidades_kit_tiro_M9;
+	
+	</script>
+
+	<script>
+	/*automata flexiones de brazos*/
+	document.getElementById('precio_automata_flexiones').textContent=valor_automata_flexiones;
+	document.getElementById('precio_automata_flexiones2').textContent=valor_automata_flexiones;
+	document.getElementById('nombre_automata_flexiones').textContent =nombre_automata_flexiones;
+	document.getElementById('unidades_automata_flexiones').textContent =unidades_automata_flexiones;
+
+	</script>
+
+	<script>
+	/*gran padoga del ganso*/
+	document.getElementById('precio_gran_padoga_ganso').textContent=valor_gran_padoga_ganso;
+	document.getElementById('precio_gran_padoga_ganso2').textContent=valor_gran_padoga_ganso;
+	document.getElementById('nombre_gran_padoga_ganso').textContent =nombre_gran_padoga_ganso;
+	document.getElementById('cantidad_gran_padoga_ganso').textContent =unidades_gran_padoga_ganso;
+	 
+	</script>
+    <script>
+	/*yueyang tower*/
+	document.getElementById('precio_yueyang_tower').textContent=valor_yueyang_tower;
+	document.getElementById('precio_yueyang_tower2').textContent=valor_yueyang_tower;
+	document.getElementById('nombre_yueyang_tower').textContent =nombre_yueyang_tower;
+	document.getElementById('cantidad_yueyang_tower').textContent =unidades_yueyang_tower;			
+	</script>
+
+   <script>
+	/*templo oracion chino*/
+	document.getElementById('precio_templo_oracion').textContent=valor_templo_oracion;
+	document.getElementById('precio_templo_oracion2').textContent=valor_templo_oracion;
+	document.getElementById('nombre_templo_oracion').textContent =nombre_templo_oracion;
+	document.getElementById('cantidad_templo_oracion').textContent =unidades_templo_oracion;				
+	</script>
+
+	<script>
+	/*torre de pisa*/
+	document.getElementById('precio_torre_pisa').textContent=valor_torre_pisa;
+	document.getElementById('precio_torre_pisa2').textContent=valor_torre_pisa;
+	document.getElementById('nombre_torre_pisa').textContent =nombre_torre_pisa;
+	document.getElementById('cantidad_torre_pisa').textContent =unidades_torre_pisa;			
+	</script>
+
+	<script>
+	/*torre kuala lumpur*/
+	document.getElementById('precio_torre_kuala_lumpur').textContent=valor_torre_kuala_lumpur;
+	document.getElementById('precio_torre_kuala_lumpur2').textContent=valor_torre_kuala_lumpur;
+	document.getElementById('nombre_torre_kuala_lumpur').textContent =nombre_torre_kuala_lumpur;
+	document.getElementById('cantidad_torre_kuala_lumpur').textContent =unidades_torre_kuala_lumpur;
+	</script>
+
+	<script>
+	/***** Burj Arab ***********/
+	document.getElementById('precio_burj_arab').textContent=valor_burj_arab;
+	document.getElementById('precio_burj_arab2').textContent=valor_burj_arab;
+	document.getElementById('nombre_burj_arab').textContent =nombre_burj_arab;
+	document.getElementById('cantidad_burj_arab').textContent =unidades_burj_arab;
+	</script>
+
+
+
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/SmoothScroll.js"></script>
+		<script src="js/theme-scripts.js"></script>
+      
+
+</html>
