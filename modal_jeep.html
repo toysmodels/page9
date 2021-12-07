@@ -28,6 +28,7 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
               </div>
               <!-- Modal caracteristicas  -->             
                   <div style="text-align: center;"  width="150%">
@@ -126,14 +127,20 @@
 
           <!-- Swiper JS -->
           <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-          <!-- Initialize Swiper -->
+               <!-- Initialize Swiper -->
           <script>
             var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
               navigation: {
                 nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",                
+                prevEl: ".swiper-button-prev",
               },
- 
             });
           </script>
   </body>
