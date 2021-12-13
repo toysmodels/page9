@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+                                                      <!-- Link Swiper's CSS -->
+      <link  rel="stylesheet"    href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">	 
+        
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8ZXZCRQ6E"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-B8ZXZCRQ6E');
+      </script>
+    
+    
+    </head>
+<body>     
+    <div class="modal-body">   
+     	
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide"> <img src="images/demo/trailer/img-1.JPG" alt="jeep 1"  class="img-responsive"></div>
+          <div class="swiper-slide"><img src="images/demo/trailer/img-2.JPG" alt="jeep 2"  class="img-responsive"></div>
+          <div class="swiper-slide"><img src="images/demo/trailer/img-3.JPG" alt="jeep 3"  class="img-responsive"></div>
+          <div class="swiper-slide"><img src="images/demo/trailer/img-4.JPG" alt="jeep 4"  class="img-responsive"></div>
+          <div class="swiper-slide"><img src="images/demo/trailer/img-5.JPG" alt="jeep 4"  class="img-responsive"></div>
+      
+        
+    
+          
+       
+         
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div> 
+          
+        
+        <!-- Modal caracteristicas  -->             
+        
+                <div style="text-align: center;">
+                    <button type="button"  style="background-color: black; text-align: center; color: white;"   data-toggle="modal" data-target=".bd-example-modal-lg">Clic Detalles tecnicos</button>
+                </div>
+
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content" style="position: fixed;width: 100%;">
+                            <div class="modal-header" >
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 style="padding-left: 20px;padding-top:15px;"> <b>Detalles Técnicos</b></h4>
+                            </div>
+                            <div class="modal-detalles-tecnicos2">
+                                <iframe src="tabla_caracteristicas_trailer.html" frameborder="0" height="510px" width="100%"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            
+
+        <div class="modal-caracteristicas" style="width: 95%;"><br>           
+            <h4>Te presentamos el trailer del jeep 
+                Con  suspensión,sistema eléctrico .Construyelo tu mismo y
+                  Llevata a casa esta autentica maravilla.</h4><br>
+
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="images/demo/trailer/img-1.JPG" alt="...">
+                        <div class="caption" style="text-align: center;">
+                          <h4><b>Construyelo </b></h4>  
+                       
+                          <h6>LLevalo con un kit listo para armar </h6>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="images/demo/trailer/img-2.JPG" alt="...">
+                        <div class="caption" style="text-align: center;">
+                          <h4><b>Suspension por ballestas </b></h4>  
+                       
+                          <h6>Suspension con bandas de cauchos </h6>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="images/demo/trailer/img-3.JPG" alt="...">
+                        <div class="caption" style="text-align: center;">
+                          <h4><b>Escala 1/17</b></h4>                         
+                          <h6>Sistema de traccion  </h6>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="images/demo/trailer/img-5.JPG" alt="...">
+                        <div class="caption" style="text-align: center;">
+                          <h4><b>Sistema de Luces</b></h4>                         
+                          <h6>Sistema de luces led delanteras y traseras </h6>                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+								
+            <h4><b>Video Youtube</b> </h4>								
+        </div>	
+    </div>
+        	
+            
+            <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script> 					
+
+
+  
+</body>
+   
+<script src="js/3.5.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+  
+
+</html>
