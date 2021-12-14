@@ -107,7 +107,6 @@ SLIDER SWIPER TOUCH
   height: 100%;
   object-fit: cover;
 }
-
 .swiper {
   margin-left: auto;
   margin-right: auto;
@@ -394,9 +393,9 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
   position: absolute;
-  top: 30px;
+  top: 18px;
   right: 30px;
-  bottom: 25px;
+  bottom: 18px;
   left: 30px;
   content: "";
   opacity: 0;
@@ -431,15 +430,15 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 13px;
   font-weight: 500;
   padding: 20px 2.5em;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
+
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
 }
 
 figure.effect-bubba:hover figcaption::before,
