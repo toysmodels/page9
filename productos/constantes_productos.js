@@ -44,7 +44,7 @@ var valor_yueyang_tower="140.000"
 var unidades_yueyang_tower="4"
 
 /***** Templo Chino del Cielo *******/
-var nombre_templo_oracion="Templo de Oracion"
+var nombre_templo_oracion="Templo Chino"
 var valor_templo_oracion="130.000"
 var unidades_templo_oracion="2"
 
