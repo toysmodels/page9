@@ -30,7 +30,7 @@ var unidades_kit_tiro_M9="12"
 
 /***** Automata flexiones de brazos *******/
 var nombre_automata_flexiones="Automata_flexiones"
-var valor_automata_flexiones="40.000"
+var valor_automata_flexiones="35.000"
 var unidades_automata_flexiones="20"
 
 /***** Gran padoga del Ganso *******/
