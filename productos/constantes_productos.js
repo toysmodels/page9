@@ -6,7 +6,7 @@ var unidades_jeep="2";
 
 /***** CHASIS *******/
 var nombre_chasis="Chasis"
-var valor_chasis="65.000"
+var valor_chasis="75.000"
 var unidades_chasis="4"
 
 
@@ -30,7 +30,7 @@ var unidades_kit_tiro_M9="3"
 
 /***** Automata flexiones de brazos *******/
 var nombre_automata_flexiones="Automata_flexiones"
-var valor_automata_flexiones="35.000"
+var valor_automata_flexiones="65.000"
 var unidades_automata_flexiones="3"
 
 /***** Gran padoga del Ganso *******/
