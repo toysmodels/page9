@@ -1,7 +1,7 @@
 
 /***** JEEP *******/
 var nombre_jeep="Jeep 4x4";
-var valor_jeep="100.000";
+var valor_jeep="80.000";
 var unidades_jeep="3";
 
 
