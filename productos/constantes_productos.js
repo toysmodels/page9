@@ -1,7 +1,7 @@
 
 /***** JEEP *******/
 var nombre_jeep="Jeep 4x4";
-var valor_jeep="80.000";
+var valor_jeep="75.000";
 var unidades_jeep="3";
 
 
@@ -31,7 +31,7 @@ var unidades_kit_tiro_M9="3"
 
 /***** Automata flexiones de brazos *******/
 var nombre_automata_flexiones="Automata_flexiones"
-var valor_automata_flexiones="50.000"
+var valor_automata_flexiones="40.000"
 var unidades_automata_flexiones="3"
 
 /***** Gran padoga del Ganso *******/
