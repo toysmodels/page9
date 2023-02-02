@@ -35,17 +35,17 @@ var unidades_automata_flexiones="3"
 
 /***** Gran padoga del Ganso *******/
 var nombre_gran_padoga_ganso="Gran Padoga del Ganso"
-var valor_gran_padoga_ganso="90.000"
+var valor_gran_padoga_ganso="85.000"
 var unidades_gran_padoga_ganso="0"
 
 /***** Yueyang Tower *******/
 var nombre_yueyang_tower="Yueyang Tower"
-var valor_yueyang_tower="90.000"
+var valor_yueyang_tower="85.000"
 var unidades_yueyang_tower="4"
 
 /***** Templo Chino del Cielo *******/
 var nombre_templo_oracion="Templo Chino"
-var valor_templo_oracion="90.000"
+var valor_templo_oracion="85.000"
 var unidades_templo_oracion="2"
 
 /***** Torre Pisa  *******/
