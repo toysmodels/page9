@@ -1,6 +1,6 @@
 /***** JEEP *******/
 var nombre_jeep="Jeep 4x4";
-var valor_jeep="150.000";
+var valor_jeep="100.000";
 var unidades_jeep="2";
 
 
@@ -25,12 +25,12 @@ var unidades_toyota_fj40="0"
 
 /***** kit tiro al blanco M9*******/
 var nombre_kit_tiro_M9="kit_Tiro"
-var valor_kit_tiro_M9="65.000"
+var valor_kit_tiro_M9="50.000"
 var unidades_kit_tiro_M9="3"
 
 /***** Automata flexiones de brazos *******/
 var nombre_automata_flexiones="Automata_flexiones"
-var valor_automata_flexiones="65.000"
+var valor_automata_flexiones="50.000"
 var unidades_automata_flexiones="3"
 
 /***** Gran padoga del Ganso *******/
@@ -40,7 +40,7 @@ var unidades_gran_padoga_ganso="0"
 
 /***** Yueyang Tower *******/
 var nombre_yueyang_tower="Yueyang Tower"
-var valor_yueyang_tower="140.000"
+var valor_yueyang_tower="90.000"
 var unidades_yueyang_tower="4"
 
 /***** Templo Chino del Cielo *******/
@@ -50,17 +50,17 @@ var unidades_templo_oracion="2"
 
 /***** Torre Pisa  *******/
 var nombre_torre_pisa="Torre Pisa"
-var valor_torre_pisa="90.000"
+var valor_torre_pisa="70.000"
 var unidades_torre_pisa="0"
 
 /***** Torre Kuala Lumpur *******/
 var nombre_torre_kuala_lumpur="Torre Kuala Lumpur"
-var valor_torre_kuala_lumpur="65.000"
+var valor_torre_kuala_lumpur="50.000"
 var unidades_torre_kuala_lumpur="0"
 
 /***** Burj Arab *******/
 var nombre_burj_arab="Burj Arab"
-var valor_burj_arab="70.000"
+var valor_burj_arab="50.000"
 var unidades_burj_arab="0"
 
 
