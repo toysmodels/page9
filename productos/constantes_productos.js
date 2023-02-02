@@ -36,7 +36,7 @@ var unidades_automata_flexiones="3"
 /***** Gran padoga del Ganso *******/
 var nombre_gran_padoga_ganso="Gran Padoga del Ganso"
 var valor_gran_padoga_ganso="85.000"
-var unidades_gran_padoga_ganso="0"
+var unidades_gran_padoga_ganso="2"
 
 /***** Yueyang Tower *******/
 var nombre_yueyang_tower="Yueyang Tower"
@@ -51,16 +51,16 @@ var unidades_templo_oracion="2"
 /***** Torre Pisa  *******/
 var nombre_torre_pisa="Torre Pisa"
 var valor_torre_pisa="70.000"
-var unidades_torre_pisa="0"
+var unidades_torre_pisa="2"
 
 /***** Torre Kuala Lumpur *******/
 var nombre_torre_kuala_lumpur="Torre Kuala Lumpur"
 var valor_torre_kuala_lumpur="50.000"
-var unidades_torre_kuala_lumpur="0"
+var unidades_torre_kuala_lumpur=1"
 
 /***** Burj Arab *******/
 var nombre_burj_arab="Burj Arab"
 var valor_burj_arab="50.000"
-var unidades_burj_arab="0"
+var unidades_burj_arab="2"
 
 
