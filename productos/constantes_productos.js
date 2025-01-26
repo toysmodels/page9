@@ -1,7 +1,7 @@
 
 /***** JEEP *******/
 var nombre_jeep="Jeep 4x4";
-var valor_jeep="100.000";
+var valor_jeep="120.000";
 var unidades_jeep="3";
 
 
@@ -14,7 +14,7 @@ var unidades_chasis="2"
 
 /***** TRAILER *******/
 var nombre_trailer="Trailer"
-var valor_trailer="40.000"
+var valor_trailer="50.000"
 var unidades_trailer="2"
 
 
@@ -26,7 +26,7 @@ var unidades_toyota_fj40="0"
 
 /***** kit tiro al blanco M9*******/
 var nombre_kit_tiro_M9="kit_Tiro"
-var valor_kit_tiro_M9="60.000"
+var valor_kit_tiro_M9="80.000"
 var unidades_kit_tiro_M9="3"
 
 /***** Automata flexiones de brazos *******/
@@ -56,10 +56,10 @@ var unidades_torre_pisa="3"
 
 /***** Torre Kuala Lumpur *******/
 var nombre_torre_kuala_lumpur="Torre Kuala Lumpur"
-var valor_torre_kuala_lumpur="50.000"
+var valor_torre_kuala_lumpur="80.000"
 var unidades_torre_kuala_lumpur="3"
 
 /***** Burj Arab *******/
 var nombre_burj_arab="Burj Arab"
-var valor_burj_arab="60.000"
+var valor_burj_arab="80.000"
 var unidades_burj_arab="3"
